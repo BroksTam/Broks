@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Lar) @lsbax_dev.--
---   This Is The Source Channel @lsbax_dev .   --
+-- This Source Was Developed By (Lar) @FFMRD.--
+--   This Is The Source Channel @FFMRD .   --
 --           - Source stars -                 --
---        -- https://t.me/lsbax_dev --         --
+--        -- https://t.me/FFMRD --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -465,7 +465,8 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
 {{text = '• مالك المجموعة •', url = 't.me/'..owner.username}},
 {{text = Get_Chat.title, url = Info_Chats.invite_link.invite_link}},{{text = '‹ مسح الترحيب › ', data =msg.sender_id.user_id..'/'.. 'delAmr'}},
 }}
-return LuaTele.sendText(msg.chat_id, msg.id, TextWelcome, 'md', true, false, false, false, reply_markup)else
+return LuaTele.sendText(msg.chat_id, msg.id, TextWelcome, 'md', true, false, false, false, reply_markup)
+else
 Welcom = {"- 𝗛𝗲𝗹𝗹𝗼 𝗳𝗿𝗶𝗲𝗻𝗱 🦋♥️.","•˛ َ𝖧َ𝗂 ِ𝖻𝗋𝗈 🍥 .","هيلآو حات #تبغا عصيـࢪ 🥺♥️🧃؟","- هـلاً يڪَِـمـࢪ نورِت 💞🦋 .","هوَفہ شهالقميࢪَ ♥️🍓 .","للڪ ههلا . وچثيࢪ لههلا . بࢪࢪو .🤍📻","نـَـِﯡࢪت يـَحـِلو 🦋.","- ﭑࢪحـب يَـاﭑب #نـوࢪت. 🔥💕.",":ِ هيلآو يࢪِۅِحيَ نۅِࢪِتَ اࢦڪࢪِِۅبَ '♥️🦋 .","ههِوَفہ شَهلحِاتتَہ تِـ؏َ بَوصِقَہ 🦋💞🥺🫂🩹 .","نصير،بيست 🫂؟",};
 SendWelcom = Welcom[math.random(#Welcom)]
 local TextWelcome = ('*⌯︙'..SendWelcom..'\n• '..UserInfo.first_name..'\n• الاعضاء '..Info_Chats.member_count..' ~ الادمنيه '..Info_Chats.administrator_count..' \n• وقت الانضمام : ('..os.date("%H:%M:%S")..')\n• تاريخ الانضمام : ('..os.date("%Y/%m/%d")..')*\n•-› ✓')
@@ -613,7 +614,8 @@ elseif Info_User.type.luatele == "userTypeRegular" then
 Redis:incr(Tshak.."Num:Add:Memp"..msg.chat_id..":"..msg.sender_id.user_id) 
 if AddMembrs == "kick" and not msg.ControllerBot then
 LuaTele.setChatMemberStatus(msg.chat_id,v,'banned',0)
-endend
+end
+end
 end
 end 
 if msg.content.luatele == "messageVideoNote" and not msg.Distinguished then  -- بصمه الفيديو
@@ -15813,55 +15815,82 @@ local msg_id = Msg_id/2097152/0.5
  https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. ChatId .. '&photo=https://t.me/tshakk/97/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_prsjeview=true&reply_markup="..JSON.encode(keyboard)) end
 elseif Text and Text:match('(%d+)/aktlaf4') then
 local UserId = Text:match('(%d+)/aktlaf4')
-if tonumber(IdUser) == tonumber(UserId) then
+if tonumber(IdUser) == tonumber(UserId) then
+
 Abs = math.random(4,80); 
 local Text ='*⌁︙اوجد الاختلاف مابين الصورتين ؟   *'
 keyboard = {} 
 keyboard.inline_keyboard = {{{text = '‹  المنقار ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹    الاقدام   ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹ الشجره ›', callback_data = IdUser..'/'.. 'unwiner'},},{{text = '‹  لون اليد والغيم  ›', callback_data = IdUser..'/'.. 'winer'},{text = '‹   لون الدجاجه   ›', callback_data = IdUser..'/'.. 'unwiner'},},{{text = '‹ لون العصفور واليد ›', callback_data = IdUser..'/'.. 'unwiner'},}}
 local msg_id = Msg_id/2097152/0.5
  https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. ChatId .. '&photo=https://t.me/tshakk/98/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_prsjeview=true&reply_markup="..JSON.encode(keyboard)) end
-elseif Text and Text:match('(%d+)/aktlaf6') then
-
+elseif Text and Text:match('(%d+)/aktlaf6') then
 
-
 
-local UserId = Text:match('(%d+)/aktlaf6')
-
 
-
 
-if tonumber(IdUser) == tonumber(UserId) then
-
 
-
-
 
-
 
-Abs = math.random(4,80); 
-
+local UserId = Text:match('(%d+)/aktlaf6')
 
-
 
-local Text ='*⌁︙اوجد الاختلاف مابين الصورتين ؟   *'
-
 
-
 
-keyboard = {} 
-
 
-
 
-keyboard.inline_keyboard = {{{text = '‹  المنقار ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹    الريش   ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹ الشجره ›', callback_data = IdUser..'/'.. 'unwiner'},},{{text = '‹  السياج والشمس  ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹   السياج والبيضه    ›', callback_data = IdUser..'/'.. 'winer'},},{{text = '‹ لون الارض  ›', callback_data = IdUser..'/'.. 'unwiner'},}}
-
 
-
+if tonumber(IdUser) == tonumber(UserId) then
 
-local msg_id = Msg_id/2097152/0.5
-
 
-
+
+
+
+
+
+
+
+
+
+
+Abs = math.random(4,80); 
+
+
+
+
+
+
+
+local Text ='*⌁︙اوجد الاختلاف مابين الصورتين ؟   *'
+
+
+
+
+
+
+
+keyboard = {} 
+
+
+
+
+
+
+
+keyboard.inline_keyboard = {{{text = '‹  المنقار ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹    الريش   ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹ الشجره ›', callback_data = IdUser..'/'.. 'unwiner'},},{{text = '‹  السياج والشمس  ›', callback_data = IdUser..'/'.. 'unwiner'},{text = '‹   السياج والبيضه    ›', callback_data = IdUser..'/'.. 'winer'},},{{text = '‹ لون الارض  ›', callback_data = IdUser..'/'.. 'unwiner'},}}
+
+
+
+
+
+
+
+local msg_id = Msg_id/2097152/0.5
+
+
+
+
+
+
 
  https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. ChatId .. '&photo=https://t.me/tshakk/101/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_prsjeview=true&reply_markup="..JSON.encode(keyboard)) end
 elseif Text and Text:match('(%d+)/aktlaf5') then
