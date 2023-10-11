@@ -18329,9 +18329,3 @@ end
 end 
 end --UserBot
 end -- File_Bot_Run
-function CallBackLua(data) --- هذا الكالباك بي الابديت 
-RunCallBack(data)
-end
-Redis:sadd(Tshak.."eza3a",Token.."&"..Tshak)
-Redis:set("@"..UserBot,Tshak.."&".."@"..UserBot.."$@"..UserSudo.."+"..Token)
-Fx.Tshakbots.run(CallBackLua)
